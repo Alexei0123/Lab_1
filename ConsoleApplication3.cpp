@@ -15,7 +15,8 @@ int main() {
     x = max(x, a * (b + c));
     x = max(x, a * b * c);
 
-    cout << x;
+    cout << "Наибольшее значение: "<< x;
+	
 
     return 0;
 }
